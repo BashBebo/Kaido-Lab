@@ -51,13 +51,34 @@ body {
     text-align: left;
 }
 
-.HereSection_Header {
+.HeroSection_Header {
     display: flex;
     font-family: 'Montserrat', system-ui, sans-serif;
-    font-size: 3.5rem;
+    font-size: 3.9rem;
     font-weight: bolder;
     position: relative;
     left: 40px;
     line-height: 0.9em;
-
 }
+
+.Herosection_P {
+    display: flex;
+    position: relative;
+    left: 40px;
+    font-family: 'Inter', system-ui, sans-serif;
+    color: #475569;
+    font-size: 1.2rem;
+    margin: -25px 0px 32px;
+}
+
+.Herosection_Span {
+    display: inline-block;
+    position: relative;
+    font-family: 'Inter', system-ui, sans-serif;
+    color: #004599;
+    background-color: #CCE3FF;
+    border-radius: 30px;
+    padding: 0.2rem 0.5rem;
+    left: 40px;
+    top: 40px;
+} 
