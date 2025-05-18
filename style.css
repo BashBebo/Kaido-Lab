@@ -16,7 +16,7 @@ body {
 .navlinks {
     position: absolute;
     top: 13px;
-    right: 18px;
+    right: 120px;
     list-style: none;
     display: flex;
     gap: 1.6rem;
@@ -28,4 +28,36 @@ body {
     transition: color 0.3s ease;
     font-weight: bold;
     font-size: 1.1rem;                                                                          
+}
+
+.KaidoLab {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    position: absolute;
+    left: 70px; 
+    top: 13px;
+}
+
+.NavigationBar1 {
+    display: flex;
+    z-index: 1000;
+    margin: 100px 0 0 0;
+}
+
+.hero-content {
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.HereSection_Header {
+    display: flex;
+    font-family: 'Montserrat', system-ui, sans-serif;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    position: relative;
+    left: 40px;
+    line-height: 0.9em;
+
 }
