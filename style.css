@@ -4,3 +4,28 @@ body {
 }
 
 
+.Nav_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255)fff;
+    color: rgba(31, 31, 31, 0.856);
+    padding: 0.5rem 2rem;
+}
+
+.navlinks {
+    position: absolute;
+    top: 13px;
+    right: 18px;
+    list-style: none;
+    display: flex;
+    gap: 1.6rem;
+}
+
+.navlinks li a {
+    text-decoration: none;
+    color: rgba(31, 31, 31, 0.856);
+    transition: color 0.3s ease;
+    font-weight: bold;
+    font-size: 1.1rem;                                                                          
+}
