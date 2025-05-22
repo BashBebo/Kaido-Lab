@@ -3,6 +3,8 @@ body {
     background-color: white;
 }
 
+.main1
+
 
 .Nav_bar {
     display: flex;
@@ -50,6 +52,7 @@ body {
     display: block;
     margin: 0 auto;
     text-align: left;
+    align-self: center;
 }
 
 .HeroSection_Header {
@@ -58,14 +61,14 @@ body {
     font-size: 3.9rem;
     font-weight: bolder;
     position: relative;
-    left: 40px;
+    left: 50px;
     line-height: 0.9em;
 }
 
 .Herosection_P {
     display: flex;
     position: relative;
-    left: 40px;
+    left: 50px;
     font-family: 'Inter', system-ui, sans-serif;
     color: #475569;
     font-size: 1.2rem;
@@ -80,14 +83,14 @@ body {
     background-color: #CCE3FF;
     border-radius: 30px;
     padding: 0.2rem 0.5rem;
-    left: 40px;
-    top: 40px;
+    left: 50px;
+    top: 45px;
 } 
 
 .btn1 {
     display: inline-block;
     position: relative;
-    left: 40px;
+    left: 50px;
     text-decoration: none;
     color: white;
     padding: 12px 20px;
@@ -100,7 +103,7 @@ body {
 .btn2 {
     display: inline-block;
     position: relative;
-    left: 60px;
+    left: 70px;
     text-decoration: none;
     padding: 12px 20px;
     background-color: #ffffff;
@@ -115,10 +118,11 @@ body {
 .hero-image1{
     display: block;
     position: absolute;
-    top: 160px;
-    right: 100px;
-    width: 570px;
-    height: 380px;
+    top: 165px;
+    right: 65px;
+    width: 550px;
+    height: 365px;
     border-radius: 15px;
+    align-self: center;
 }
         
