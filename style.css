@@ -61,14 +61,16 @@ body {
     font-size: 3.9rem;
     font-weight: bolder;
     position: relative;
-    left: 50px;
+    left: 65px;
+    top: 55px;
     line-height: 0.9em;
 }
 
 .Herosection_P {
     display: flex;
     position: relative;
-    left: 50px;
+    left: 65px;
+    top: 60px;
     font-family: 'Inter', system-ui, sans-serif;
     color: #475569;
     font-size: 1.2rem;
@@ -83,14 +85,15 @@ body {
     background-color: #CCE3FF;
     border-radius: 30px;
     padding: 0.2rem 0.5rem;
-    left: 50px;
-    top: 45px;
+    left: 70px;
+    top: 60px;
 } 
 
 .btn1 {
     display: inline-block;
     position: relative;
-    left: 50px;
+    left: 65px;
+    top: 70x;
     text-decoration: none;
     color: white;
     padding: 12px 20px;
@@ -103,7 +106,8 @@ body {
 .btn2 {
     display: inline-block;
     position: relative;
-    left: 70px;
+    left: 90px;
+    top: 57px;
     text-decoration: none;
     padding: 12px 20px;
     background-color: #ffffff;
@@ -126,3 +130,20 @@ body {
     align-self: center;
 }
         
+
+.SectionBackground1 {
+    background-color: white;
+}
+
+.BlueBlur1 {
+   position: absolute;
+   top: 20%;
+   right: 10%;
+   width: 300px;
+   height: 300px;
+   background: #3ba2f6; /* Tailwind blue-500 */
+   opacity: 0.3;
+   filter: blur(100px);
+   border-radius: 50%;
+   z-index: 0;
+}
