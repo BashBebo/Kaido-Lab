@@ -3,8 +3,6 @@ body {
     background-color: white;
 }
 
-.main1
-
 
 .Nav_bar {
     display: flex;
@@ -47,34 +45,33 @@ body {
     z-index: 1000;
     margin: 100px 0 0 0;
 }
-
 .hero-content {
     display: block;
     margin: 0 auto;
     text-align: left;
     align-self: center;
 }
-
 .HeroSection_Header {
     display: flex;
     font-family: 'Montserrat', system-ui, sans-serif;
-    font-size: 3.9rem;
+    font-size: 4rem; /* Slightly increased */
     font-weight: bolder;
     position: relative;
-    left: 65px;
-    top: 53px;
-    line-height: 0.9em;
+    left: 320px;
+    top: 85px;
+    line-height: 1em;
 }
 
 .Herosection_P {
     display: flex;
     position: relative;
-    left: 65px;
-    top: 58px;
+    left: 320px;
+    top: 88px;
     font-family: 'Inter', system-ui, sans-serif;
     color: #475569;
-    font-size: 1.2rem;
-    margin: -25px 0px 32px;
+    font-size: 1.35rem; /* Slightly increased */
+    letter-spacing: 0.001em; /* Slightly stretched */
+    margin: -20px 0px 28px;
 }
 
 .Herosection_Span {
@@ -84,48 +81,52 @@ body {
     color: #004599;
     background-color: #CCE3FF;
     border-radius: 30px;
-    padding: 0.6rem 0.8rem;
-    left: 70px;
-    top: 93px;
+    padding: 0.72rem 1.05rem; /* Slightly increased */
+    left: 320px;
+    top: 110px;
+    font-size: 1.13rem; /* Slightly increased */
+    letter-spacing: 0.001em; /* Slightly stretched */
 } 
 
 .btn1 {
     display: inline-block;
     position: relative;
-    left: 65px;
-    top: 43px;
+    left: 320px;
+    top: 78px;
     text-decoration: none;
     color: white;
-    padding: 12px 20px;
+    padding: 15px 27px; /* Slightly increased */
     background-color: #005CCC;
-    font: 16px 'Inter', system-ui, sans-serif;
+    font: 18px 'Inter', system-ui, sans-serif; /* Slightly increased */
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 11px; /* Slightly increased */
+    letter-spacing: 0.001em; /* Slightly stretched */
 }
 
 .btn2 {
     display: inline-block;
     position: relative;
-    left: 90px;
-    top: 43px;
+    left: 340px;
+    top: 78px;
     text-decoration: none;
-    padding: 12px 20px;
+    padding: 15px 27px; /* Slightly increased */
     background-color: #ffffff;
     color: #005CCC;
     border-color: #0163da;
     border: 2px solid #005CCC;
-    font: 16px 'Inter', system-ui, sans-serif;
+    font: 18px 'Inter', system-ui, sans-serif; /* Slightly increased */
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 11px; /* Slightly increased */
+    letter-spacing: 0.001em; /* Slightly stretched */
 }
 
 .hero-image1{
     display: block;
     position: absolute;
-    top: 165px;
+    top: 195px;
     right: 65px;
-    width: 550px;
-    height: 365px;
+    width: 660px;
+    height: 465px;
     border-radius: 15px;
     align-self: center;
 }
