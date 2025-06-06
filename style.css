@@ -123,31 +123,55 @@ body {
 .hero-image1{
     display: block;
     position: absolute;
-    top: 195px;
-    right: 65px;
-    width: 660px;
-    height: 465px;
+    top: 220px;
+    right: 345px;
+    width: 590px;
+    height: 393px;
     border-radius: 15px;
     align-self: center;
-}
-        
+    align-items: center;
+}   
 
-.SectionBackground1 {
-    background-color: white;
-    overflow: visible;
-}
 
 .BlueBlur1 {
     position: absolute;
     bottom: 5%; /* Changed from top to bottom */
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Ensure perfect center alignment */
-    width: 200px; /* Decreased from 300px */
-    height: 200px; /* Decreased from 300px */
-    background: #0052cc; /* Darker blue color */
-    opacity: 0.7; /* Slightly increased opacity */
-    filter: blur(75px); /* Decreased blur from 100px to 50px */
+    width: 250px; /* Decreased from 300px */
+    height: 250px; /* Decreased from 300px */
+    background: #00ccbb; /* Darker blue color */
+    opacity: 0.5; /* Slightly increased opacity */
+    filter: blur(90px); /* Decreased blur from 100px to 50px */
     border-radius: 50%;
     z-index: 1;
+    pointer-events: none;
+}
+
+.GreenCircle {
+    position: absolute;
+    top: 20%; /* Changed from top to bottom */
+    left: 52%; /* Center horizontally */
+    transform: translateX(-50%); /* Ensure perfect center alignment */
+    width: 150px; /* Decreased from 300px */
+    height: 150px; /* Decreased from 300px */
+    background: #09b1a8; /* Darker blue color */
+    opacity: 0.2; /* Slightly increased opacity */ 
+    border-radius: 50%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.BlueCircle {
+    position: absolute;
+    bottom: 27%; /* Changed from top to bottom */
+    left: 80%; /* Center horizontally */
+    transform: translateX(-50%); /* Ensure perfect center alignment */
+    width: 200px; /* Decreased from 300px */
+    height: 200px; /* Decreased from 300px */
+    background: #0870d1; /* Darker blue color */
+    opacity: 0.2; /* Slightly increased opacity */ 
+    border-radius: 50%;
+    z-index: 0;
     pointer-events: none;
 }
