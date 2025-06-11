@@ -1,6 +1,6 @@
 body {
     font-family: 'Cabin', sans-serif;
-    background-color: white;
+    background-color: rgb(245, 245, 245);
 }
 
 
@@ -174,4 +174,61 @@ body {
     border-radius: 50%;
     z-index: 0;
     pointer-events: none;
+}
+
+
+.SectionBackground1{
+    min-height: 100vh; /* full screen */
+}
+
+
+.SectionServices{
+    background-color: rgb(255, 255, 255);
+    min-height: 75vh;
+}
+
+.container2 {
+    display: block;
+    position: relative;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.ContainerHeader {
+    font-family: 'Inter', system-ui, sans-serif;
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.1rem;
+    font-size: bold;
+}
+
+.ContianerP {
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-size: bold;
+    font-family: 'Inter', system-ui, sans-serif;
+    color: rgb(83, 83, 83);
+}
+
+.highlight {
+     background: #f3ec19;      /* your highlight color */
+     border-radius: 4px;       /* soft corners */
+     padding: 0 0.2em;         /* small horizontal padding */
+     display: inline;
+     position: relative;    /* stay inline */
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+
 }
