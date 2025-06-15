@@ -199,14 +199,15 @@ body {
 }
 
 .ContainerHeader {
-    font-family: 'Inter', system-ui, sans-serif;
+    font-family: 'Montserrat' , system-ui, sans-serif;
     display: flex;
-    position: relative;
+    position: block;
     text-align: center;
     align-items: center;
     justify-content: center;
-    font-size: 2.1rem;
+    font-size: 2.3rem;
     font-size: bold;
+    letter-spacing: 1.3px;
 }
 
 .ContianerP {
@@ -219,16 +220,27 @@ body {
     font-size: bold;
     font-family: 'Inter', system-ui, sans-serif;
     color: rgb(83, 83, 83);
+    left: 50px;
 }
 
-.highlight {
-     background: #f3ec19;      /* your highlight color */
+.Highlight1 {
+    background-color: rgb(255, 255, 0);/* your highlight color */
      border-radius: 4px;       /* soft corners */
-     padding: 0 0.2em;         /* small horizontal padding */
      display: inline;
      position: relative;    /* stay inline */
      align-items: center;
      justify-content: center;
      text-align: center;
+     top: 49px;
+     right: 410px;
 
 }
+
+.ServiceBox {
+    display: inline-flex;
+    position: relative;
+    background-color: white;
+    margin: 50px;
+    gap: 1.5rem;
+}
+
