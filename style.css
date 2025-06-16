@@ -254,6 +254,7 @@ body {
     margin: 30px 20px; /* Reduced margin for closer spacing */
     gap: 0; /* Remove negative gap */
     vertical-align: top; /* Align boxes to the top if they have different heights */
+    transition: box-shadow 0.2s ease, transform 0.3s ease; /* Smooth transition for hover effect */
 }
 
 .H21, .H22, .H23, .H24 {
@@ -262,4 +263,17 @@ body {
     font-family:'inter' system-ui, sans-serif;
     font-weight: 550;
     color: #0f172a;
+}
+
+.ServiceBox:hover{
+    transform: scale(1.02);
+    box-shadow: 6px 9px 14px rgba(0, 0, 0, 0.4);
+
+}
+
+.icon {
+    color: rgb(1, 58, 245);
+    font-size: 1.7rem;
+    position: relative;
+    left: -100px;
 }
