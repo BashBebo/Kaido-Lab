@@ -183,7 +183,7 @@ body {
 
 
 .SectionServices{
-    background-color: rgb(243, 243, 243);
+    background-color: #f8f9fa;
     min-height: 76vh;
     width: 150vw;
 }
@@ -207,9 +207,9 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 2.3rem;
-    font-size: bold;
+    font-weight: 630;
     letter-spacing: 1.3px;
-    left: -495px;
+    left: -472px;
 }
 
 .ContianerP {
@@ -222,10 +222,10 @@ body {
     font-size: bold;
     font-family: 'Inter', system-ui, sans-serif;
     color: rgb(83, 83, 83);
-    left: -445px;
+    left: -485px;
 }
 
-.Highlight1 {
+.Highlight-1 {
     background-color: rgb(255, 255, 0);/* your highlight color */
      border-radius: 4px;       /* soft corners */
      display: inline;
@@ -246,15 +246,16 @@ body {
     background-color: white;
     width: 270px;
     height: 310px;
-    border-radius: 12px;
+    border-radius: 10px;
     text-align: center;
     align-self: center;
     align-items: center;
     justify-content: center;
-    margin: 30px 20px; /* Reduced margin for closer spacing */
+    margin: 25px 20px; /* Reduced margin for closer spacing */
     gap: 0; /* Remove negative gap */
     vertical-align: top; /* Align boxes to the top if they have different heights */
     transition: box-shadow 0.2s ease, transform 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 7px 5px 8px rgba(0, 0, 0, 0.1);
 }
 
 .H21, .H22, .H23, .H24 {
