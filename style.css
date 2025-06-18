@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    overflow-x: hidden; /* Prevents horizontal scrolling */
+    overflow-x: hidden;
 }
 
 .Nav_bar {
@@ -187,26 +187,18 @@ body {
 .SectionServices{
     background-color: #f2f2f2;
     min-height: 76vh;
-    width: 100%; /* Changed from 150vw to 100% */
-    max-width: 100%; /* Ensures section doesn't overflow */
+    width: 100%; /* Changed from 150vw */
 }
 
 .container2 {
-    max-width: 1200px; /* Add a max-width for better content control */
-    width: 100%;
+    display: block;
+    position: relative;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
     padding: 2rem;
-    box-sizing: border-box;
-}
-
-.ServiceBoxes {
-    max-width: 1200px; /* Contains service boxes within a reasonable width */
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    padding: 0 2rem;
 }
 
 .ContainerHeader {
@@ -219,7 +211,7 @@ body {
     font-size: 2.3rem;
     font-weight: 630;
     letter-spacing: 1.3px;
-    left: -472px;
+    left: -0px;
 }
 
 .ContianerP {
@@ -232,7 +224,7 @@ body {
     font-size: bold;
     font-family: 'Inter', system-ui, sans-serif;
     color: rgb(83, 83, 83);
-    left: -485px;
+    left: 0px;
 }
 
 .Highlight-1 {
@@ -250,17 +242,19 @@ body {
 
 .ServiceBox {
     display: inline-flex;
-    flex-direction: column; /* Stack h2 and p vertically */
     position: relative;
-    left: 300px;
-    background-color: white;
+    left: 19rem;
+    flex-direction: column;
+    background-color: #ffffff;
     width: 270px;
     height: 310px;
     border-radius: 10px;
     text-align: center;
-    align-self: center;
-    align-items: center;
     justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+    align-self: center;
     margin: 25px 20px; /* Reduced margin for closer spacing */
     gap: 0; /* Remove negative gap */
     vertical-align: top; /* Align boxes to the top if they have different heights */
