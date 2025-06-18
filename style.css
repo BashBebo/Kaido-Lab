@@ -1,8 +1,10 @@
 body {
     font-family: 'Cabin', sans-serif;
-    background-color: rgb(245, 245, 245);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
 }
-
 
 .Nav_bar {
     display: flex;
@@ -183,20 +185,28 @@ body {
 
 
 .SectionServices{
-    background-color: #f8f9fa;
+    background-color: #f2f2f2;
     min-height: 76vh;
-    width: 150vw;
+    width: 100%; /* Changed from 150vw to 100% */
+    max-width: 100%; /* Ensures section doesn't overflow */
 }
 
 .container2 {
-    display: block;
-    position: relative;
-    text-align: center;
-    align-self: center;
-    align-items: center;
-    justify-content: center;
+    max-width: 1200px; /* Add a max-width for better content control */
+    width: 100%;
     margin: 0 auto;
     padding: 2rem;
+    box-sizing: border-box;
+}
+
+.ServiceBoxes {
+    max-width: 1200px; /* Contains service boxes within a reasonable width */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 2rem;
 }
 
 .ContainerHeader {
