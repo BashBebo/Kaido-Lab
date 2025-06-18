@@ -375,3 +375,9 @@ body {
     transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
+.SectionEvidence{
+    background-color: #ffffff;
+    min-height: 115vh;
+    width: 100%; /* Changed from 150vw */
+}
+
