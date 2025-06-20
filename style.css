@@ -180,14 +180,23 @@ body {
 
 
 .SectionBackground1{
-    min-height: 100vh; /* full screen */
+    min-height: 91vh; /* full screen */
 }
 
-
 .SectionServices{
-    background-color: #f2f2f2;
+    background: linear-gradient(135deg, #f5f5f5, #e2e2e2);
+    box-shadow: 0 -8px 19px -6px rgba(0, 0, 0, 0.62), 
+                0 8px 19px -6px rgba(0, 0, 0, 0.62);
     min-height: 76vh;
-    width: 100%; /* Changed from 150vw */
+    width: 96vw; /* Slightly less than 100vw to show border radius */
+    border-radius: 40px; /* Add visible border radius */
+    margin: 0 auto; /* Center the section horizontally */
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    transform: none;
 }
 
 .container2 {
@@ -248,7 +257,7 @@ body {
     background-color: #ffffff;
     width: 270px;
     height: 310px;
-    border-radius: 10px;
+    border-radius: 10%;
     text-align: center;
     justify-content: center;
     justify-items: center;
@@ -375,9 +384,10 @@ body {
     transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
+
 .SectionEvidence{
     background-color: #ffffff;
     min-height: 115vh;
-    width: 100%; /* Changed from 150vw */
+    max-width: 100%; /* Changed from 150vw */
 }
 
