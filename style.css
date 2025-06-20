@@ -405,3 +405,16 @@ body {
     font-size: 1.1rem; /* Slightly increased */
     letter-spacing: 0.001em; /* Slightly stretched */ 
 }
+
+.EvidenceBox {
+    display: flex;
+    position: relative;
+    flex-direction: horizontal;
+    margin: 10rem;
+
+}
+
+.EvidenceBox:hover {
+    box-shadow: 0 8px 32px rgba(0,0,0,0.13);
+    transform: translateY(-6px) scale(1.03);
+}
