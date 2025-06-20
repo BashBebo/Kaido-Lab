@@ -247,6 +247,7 @@ body {
 
 }
 
+
 .ServiceBox {
     display: inline-flex;
     position: relative;
@@ -287,7 +288,7 @@ body {
 
 .ServiceBox:hover{
     transform: scale(1.02);
-    box-shadow: 10px 12px 14px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 8px 32px rgba(0,0,0,0.400);
     .Bluecircle4, .Bluecircle3, .Bluecircle2, .Bluecircle1 {
         background-color: rgb(1, 92, 204); /* Change to a darker blue on hover */
     }
@@ -397,13 +398,34 @@ body {
     color: #004599;
     background-color: #CCE3FF;
     border-radius: 30px;
-    padding: 0.70rem 1rem; /* Slightly increased */
-    left: 320px;
-    top: 110px;
-    font-size: 1.1rem; /* Slightly increased */
-    letter-spacing: 0.001em; /* Slightly stretched */ 
+    padding: 0.30rem 1rem;
+    left: 755px;
+    top: 1rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.001em;
 }
 
+.S3H1 {
+    font-family: 'Inter', system-ui, sans-serif;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    position: relative;
+    top: 0.9rem;
+}
+
+.S3P1 {
+    font: 1.1rem 'Inter', system-ui, sans-serif;
+    margin: 0 auto;
+    color: #575757;
+    text-align: center;
+    position: relative;
+    top: 1.1rem;
+}
+
+/* Add spacing between the heading/paragraph/span and the EvidenceWrapper */
 .EvidenceWrapper {
   display: flex;
   flex-wrap: wrap;
@@ -411,7 +433,7 @@ body {
   gap: 2rem;
   padding: 3rem 1rem;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 3rem auto 0 auto; /* Add top margin to push boxes away from above elements */
 }
 
 .EvidenceBox {
