@@ -87,7 +87,7 @@ body {
     left: 320px;
     top: 110px;
     font-size: 1.13rem; /* Slightly increased */
-    letter-spacing: 0.001em; /* Slightly stretched */
+    letter-spacing: 0.001em; /* Slightly stretched */ 
 } 
 
 .btn1 {
@@ -184,7 +184,7 @@ body {
 }
 
 .SectionServices{
-    background: linear-gradient(135deg, #f5f5f5, #e2e2e2);
+    background: linear-gradient(130deg, #f3f3f3, #ebebeb);
     box-shadow: 0 -8px 19px -6px rgba(0, 0, 0, 0.62), 
                 0 8px 19px -6px rgba(0, 0, 0, 0.62);
     min-height: 76vh;
@@ -386,8 +386,22 @@ body {
 
 
 .SectionEvidence{
-    background-color: #ffffff;
+    background: linear-gradient(135deg, #ffffff, #ffffff);
     min-height: 115vh;
     max-width: 100%; /* Changed from 150vw */
+    padding: 2rem;
 }
 
+.Section3_Span{
+    display: inline-block;
+    position: relative;
+    font-family: 'Inter', system-ui, sans-serif;
+    color: #004599;
+    background-color: #CCE3FF;
+    border-radius: 30px;
+    padding: 0.70rem 1rem; /* Slightly increased */
+    left: 320px;
+    top: 110px;
+    font-size: 1.1rem; /* Slightly increased */
+    letter-spacing: 0.001em; /* Slightly stretched */ 
+}
