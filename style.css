@@ -185,11 +185,9 @@ body {
 
 .SectionServices{
     background: linear-gradient(130deg, #f8f8f8, #f7f7f7);
-    box-shadow: 0 -8px 19px -6px rgba(0, 0, 0, 0.62), 
-                0 8px 19px -6px rgba(0, 0, 0, 0.62);
+    border-radius: 40px; /* Add visible border radius */
     min-height: 76vh;
     width: 99.5vw; /* Slightly less than 100vw to show border radius */
-    border-radius: 40px; /* Add visible border radius */
     margin: 0 auto; /* Center the section horizontally */
     padding-left: 0;
     padding-right: 0;
@@ -406,15 +404,26 @@ body {
     letter-spacing: 0.001em; /* Slightly stretched */ 
 }
 
-.EvidenceBox {
-    display: flex;
-    position: relative;
-    flex-direction: horizontal;
-    margin: 10rem;
+.EvidenceWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+.EvidenceBox {
+  flex: 1 1 300px;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.200);
+  transition: 0.3s ease;
 }
 
 .EvidenceBox:hover {
-    box-shadow: 0 8px 32px rgba(0,0,0,0.13);
-    transform: translateY(-6px) scale(1.03);
+    box-shadow: 2px 8px 32px rgba(0,0,0,0.400);
+    transform: scale(1.03);
 }
