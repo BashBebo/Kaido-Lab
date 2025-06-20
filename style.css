@@ -184,11 +184,11 @@ body {
 }
 
 .SectionServices{
-    background: linear-gradient(130deg, #f3f3f3, #ebebeb);
+    background: linear-gradient(130deg, #f8f8f8, #f7f7f7);
     box-shadow: 0 -8px 19px -6px rgba(0, 0, 0, 0.62), 
                 0 8px 19px -6px rgba(0, 0, 0, 0.62);
     min-height: 76vh;
-    width: 96vw; /* Slightly less than 100vw to show border radius */
+    width: 99.5vw; /* Slightly less than 100vw to show border radius */
     border-radius: 40px; /* Add visible border radius */
     margin: 0 auto; /* Center the section horizontally */
     padding-left: 0;
