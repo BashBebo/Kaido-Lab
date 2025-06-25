@@ -296,6 +296,7 @@ body {
         color: rgb(255, 255, 255); /* Change icon color on hover */
     }
 
+    /* The boxes original shoadow should be strecthed out all difrrent sides fix that */
 }
 
 .icon {
@@ -461,11 +462,21 @@ not sure how to do this searc up and use qwen*/
 
 
 .ClientsHeader{
+    font-family: 'Inter', system-ui, sans-serif;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.3rem;
+    letter-spacing: 0.01rem;
+    font-weight: 700;
+    font-style: normal;
 
 }
 
-ClientsP{
-
+.ClientsP{
+    font: 1.3rem 'Inter', system-ui, sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: #474747;
 }
 
 /* Try adding real client logos next time ask uncle for any */
