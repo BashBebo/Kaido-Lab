@@ -449,3 +449,23 @@ body {
     box-shadow: 2px 8px 32px rgba(0,0,0,0.400);
     transform: scale(1.03);
 }
+
+
+.Econ1, .Econ2, .Econ3, .Econ4, .Econ5, .Econ6 {
+    color: rgb(1, 58, 245);
+    font-size: 1.3rem;
+}
+/* fix the bug with the flex and the circles 
+not sure how to do this searc up and use qwen*/
+
+
+
+.ClientsHeader{
+
+}
+
+ClientsP{
+
+}
+
+/* Try adding real client logos next time ask uncle for any */
